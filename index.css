@@ -1,0 +1,108 @@
+html {
+    background-color: #FFFFFF;
+    display: table;
+    margin: auto;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    width: 1300px;
+    display: table;
+    margin: 90px auto;
+}
+header {
+}
+
+#topo {
+    flex-direction: row;
+    display: inline-flex;
+}
+
+#logo {
+    width: 40px;
+    height: 52px;
+}
+
+#nome {
+    margin-top: 15px;
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav {
+    float: right;
+    display: inline;
+    font-weight: 500;
+}
+
+nav ul {
+    display: inline;
+}
+
+nav ul li {
+    display: inline;
+    padding: 15px;
+}
+
+nav ul li:after {
+    content: "\00b7";
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+nav ul li:last-child:after {
+    content: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.github {
+    position:relative;
+    margin-left: 15px;
+    display: inline;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 15px 15px 15px 55px;
+    border-radius: 6px;
+}
+
+.github img {
+    position:absolute;
+    margin-left:-40px;
+}
+
+#pre-title {
+    display: inline-flex;
+    margin-top: 130px;
+}
+
+#line {
+    width: 122px;
+    height: 4px;
+    background-color: #000000;
+    margin-top: 43px;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 16px;
+}
+
+h1 {
+    font-size: 190px;
+}
+
+.title {
+    line-height: 85px;
+    font-weight: 800;
+    margin-top: 25px;
+}
+
+#stroke {
+    color: transparent;
+    -webkit-text-stroke: 2px #000000;
+}
