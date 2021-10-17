@@ -1,3 +1,5 @@
+/* Folha de estilos - Página inicial */
+/* Cabeçalho */
 html {
     background-color: #FFFFFF;
     display: table;
@@ -13,7 +15,7 @@ body {
 }
 
 header {
-
+    position: relative;
 }
 
 #topo {
@@ -78,6 +80,7 @@ nav a {
     margin-left:-40px;
 }
 
+/* Corpo da página */
 main {
     position: relative;
 }
@@ -149,6 +152,7 @@ aside {
     margin-bottom: 5px;
 }
 
+/* Rodapé da página */
 footer {
     display: table-row;
     margin: auto;
