@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt_br" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag &lt;track&gt;</title>
+
+</head>
+
+<body>
+   <!-- Menu Cabeçalho -->
+   <header>
+    <div class="container">
+        <div class="titulo-cabecalho">
+            <a>Referências <span>HTML</span></a>
+        </div>
+        <nav class="navegacao-cabecalho">
+            <ul>
+                <li><a>Home</a></li>
+                <li><a>Sobre</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+
+    <menu>
+        <!-- Nome Tag -->
+        <section id="tag">
+            <div class="container">
+                <h1>Tag HTML &lt;track&gt;</h1>
+            </div>
+        </section>
+
+        <!-- Exemplo -->
+        <section id="exemplo">
+            <h2>Exemplo</h2>
+            <p>Um vídeo com legendas em dois idiomas: </p>
+            <div id="codigo-exemplo">
+                <code>
+                    <p>&lt;video width=&quot;320&quot; height=&quot;240&quot; controls&gt;<br>
+					&lt;source src=&quot;forrest_gump.mp4&quot; type=&quot;video/mp4&quot;&gt;<br>
+					&lt;source src=&quot;forrest_gump.ogg&quot; type=&quot;video/ogg&quot;&gt;<br>
+					&lt;track src=&quot;fgsubtitles_en.vtt&quot; kind=&quot;subtitles&quot; srclang=&quot;en&quot; label=&quot;English&quot;&gt;<br>
+					&lt;track src=&quot;fgsubtitles_no.vtt&quot; kind=&quot;subtitles&quot; srclang=&quot;no&quot; label=&quot;Norwegian&quot;&gt;<br>
+					&lt;/video&gt;</p>
+                </code>
+            </div>
+        </section>
+
+        <!-- Definição e Uso -->
+        <section id="definicao">
+            <h2>Definição e Uso</h2>
+            <p>A tag <span>&lt;track&gt;</span> especifica faixas de texto para elementos &lt;audio&gt; ou &lt;video&gt; .
+Este elemento &eacute; usado para especificar legendas, arquivos de legendas ou outros arquivos contendo texto, que devem ser vis&iacute;veis durante a reprodu&ccedil;&atilde;o da m&iacute;dia.
+As trilhas s&atilde;o formatadas no formato WebVTT (arquivos .vtt).</p>
+        </section>
+
+        <!-- Atributos -->
+        <section id="atributos">
+            <h2>Atributos</h2>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th id="table-th-atributos">Atributo</th>
+                            <th id="table-th-valor">Valor</th>
+                            <th id="table-th-descricao">Descrição</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>default</td>
+                            <td>default</td>
+                            <td>Specifies that the track is to be enabled if the user's preferences do not indicate that another track would be more appropriate</td>
+                        </tr>
+						<tr>
+                            <td>kind</td>
+                            <td>captions<br>
+								chapters<br>
+								descriptions<br>
+								metadata<br>
+								subtitles</td>
+                            <td>Specifies the kind of text track</td>
+                        </tr>
+						<tr>
+                            <td>label</td>
+                            <td>text</td>
+                            <td>Specifies the title of the text track</td>
+                        </tr>
+						<tr>
+                            <td>src</td>
+                            <td>URL</td>
+                            <td>Required. Specifies the URL of the track file</td>
+                        </tr>
+						<tr>
+                            <td>srclang</td>
+                            <td>language_code</td>
+                            <td>Specifies the language of the track text data (required if kind="subtitles")</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        
+
+    </menu>
+    <!-- Menu Rodapé -->
+    <footer>
+        <hr>
+        <div class="rodape">
+            <ul>
+                <li><a>Home</a></li>
+                <li><a>Sobre</a></li>
+            </ul>
+        </div>
+        <span class="rodape-copyright">Copyright&copy;2021</span>
+    </footer>
+</body>
+
+</html>
