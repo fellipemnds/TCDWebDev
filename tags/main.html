@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt_br" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag &lt;main&gt;</title>
+
+</head>
+
+<body>
+   <!-- Menu Cabeçalho -->
+   <header>
+    <div class="container">
+        <div class="titulo-cabecalho">
+            <a>Referências <span>HTML</span></a>
+        </div>
+        <nav class="navegacao-cabecalho">
+            <ul>
+                <li><a>Home</a></li>
+                <li><a>Sobre</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+
+    <menu>
+        <!-- Nome Tag -->
+        <section id="tag">
+            <div class="container">
+                <h1>Tag HTML &lt;main&gt;</h1>
+            </div>
+        </section>
+
+        <!-- Exemplo -->
+        <section id="exemplo">
+            <h2>Exemplo</h2>
+            <p>Especifique o conteúdo principal do documento: </p>
+            <div id="codigo-exemplo">
+                <code>
+                    <p>&lt;main&gt;<br>
+                        &lt;h1&gt;Most Popular Browsers&lt;/h1&gt;<br>
+                        &lt;p&gt;Chrome, Firefox, and Edge are the most used browsers today.&lt;/p&gt;<br><br>
+                      
+                        &lt;article&gt;<br>
+                          &lt;h2&gt;Google Chrome&lt;/h2&gt;<br>
+                          &lt;p&gt;Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!&lt;/p&gt;<br>
+                        &lt;/article&gt;<br><br>
+                      
+                        &lt;article&gt;<br>
+                          &lt;h2&gt;Mozilla Firefox&lt;/h2&gt;<br>
+                          &lt;p&gt;Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.&lt;/p&gt;<br>
+                        &lt;/article&gt;<br><br>
+                      
+                        &lt;article&gt;<br>
+                          &lt;h2&gt;Microsoft Edge&lt;/h2&gt;<br>
+                          &lt;p&gt;Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.&lt;/p&gt;<br><br>
+                        &lt;/article&gt;<br>
+                      &lt;/main&gt;</p>
+                </code>
+            </div>
+        </section>
+
+        <!-- Definição e Uso -->
+        <section id="definicao">
+            <h2>Definição e Uso</h2>
+            <p>A &lt;main&gt;tag especifica o conteúdo principal de um documento. O conteúdo dentro do &lt;main&gt; elemento deve ser exclusivo para o documento. 
+               Ele não deve conter nenhum conteúdo que se repita em documentos, como barras laterais, links de navegação, informações de direitos autorais, 
+               logotipos de sites e formulários de pesquisa.</p>
+        </section>
+
+        <!-- Atributos -->
+        <section id="atributos">
+            <h2>Atributos</h2>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th id="table-th-atributos">Atributo</th>
+                            <th id="table-th-valor">Valor</th>
+                            <th id="table-th-descricao">Descrição</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Outro Exemplo -->
+        <section id="exemplo">
+            <h2>Exemplo</h2>
+            <p>Use CSS para alinhar o conteúdo dentro de &lt;td&gt;:</p>
+            <div id="codigo-exemplo">
+                <code>
+                    <p>&lt;html&gt;<br>
+                        &lt;head&gt;<br>
+                        &lt;style&gt;<br>
+                        main {<br>
+                          margin: 0;<br>
+                          padding: 5px;<br>
+                          background-color: lightgray;<br>
+                        }<br><br>
+                        
+                        main &gt; h1, p, .browser {<br>
+                          margin: 10px;<br>
+                          padding: 5px;<br>
+                        }<br><br>
+                        
+                        .browser {<br>
+                          background: white;<br>
+                        }<br><br>
+                        
+                        .browser &gt; h2, p {<br>
+                          margin: 4px;<br>
+                          font-size: 90%;<br>
+                        }<br>
+                        &lt;/style&gt;<br>
+                        &lt;/head&gt;<br>
+                        &lt;body&gt;<br><br>
+                        
+                        &lt;main&gt;<br>
+                          &lt;h1&gt;Most Popular Browsers&lt;/h1&gt;<br>
+                          &lt;p&gt;Chrome, Firefox, and Edge are the most used browsers today.&lt;/p&gt;<br>
+                          &lt;article class="browser"&gt;<br>
+                            &lt;h2&gt;Google Chrome&lt;/h2&gt;<br>
+                            &lt;p&gt;Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!&lt;/p&gt;<br>
+                          &lt;/article&gt;<br>
+                          &lt;article class="browser"&gt;<br>
+                            &lt;h2&gt;Mozilla Firefox&lt;/h2&gt;<br>
+                            &lt;p&gt;Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.&lt;/p&gt;<br>
+                          &lt;/article&gt;<br>
+                          &lt;article class="browser"&gt;<br>
+                            &lt;h2&gt;Microsoft Edge&lt;/h2&gt;<br>
+                            &lt;p&gt;Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.&lt;/p&gt;<br>
+                          &lt;/article&gt;<br>
+                        &lt;/main&gt;<br><br>
+                        
+                        &lt;/body&gt;<br>
+                        &lt;/html&gt;<br>
+                </code>
+            </div>
+        </section>
+
+    </menu>
+    <!-- Menu Rodapé -->
+    <footer>
+        <hr>
+        <div class="rodape">
+            <ul>
+                <li><a>Home</a></li>
+                <li><a>Sobre</a></li>
+            </ul>
+        </div>
+        <span class="rodape-copyright">Copyright&copy;2021</span>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt_br" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag &lt;teaxture&gt;</title>
+
+</head>
+
+<body>
+   <!-- Menu Cabeçalho -->
+   <header>
+    <div class="container">
+        <div class="titulo-cabecalho">
+            <a>Referências <span>HTML</span></a>
+        </div>
+        <nav class="navegacao-cabecalho">
+            <ul>
+                <li><a>Home</a></li>
+                <li><a>Sobre</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+
+    <menu>
+        <!-- Nome Tag -->
+        <section id="tag">
+            <div class="container">
+                <h1>Tag HTML &lt;teaxture&gt;</h1>
+            </div>
+        </section>
+
+        <!-- Exemplo -->
+        <section id="exemplo">
+            <h2>Exemplo</h2>
+            <p>Um controle de entrada de texto de várias linhas (área de texto): </p>
+            <div id="codigo-exemplo">
+                <code>
+                    <p>&lt;label for=&quot;w3review&quot;&gt;Review of W3Schools:&lt;/label&gt;<br>
+					&lt;textarea id=&quot;w3review&quot; name=&quot;w3review&quot; rows=&quot;4&quot; cols=&quot;50&quot;&gt;<br>
+					At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.<br>
+					&lt;/textarea&gt;</p>
+                </code>
+            </div>
+        </section>
+
+        <!-- Definição e Uso -->
+        <section id="definicao">
+            <h2>Definição e Uso</h2>
+            <p>A tag <span>&lt;teaxture&gt;</span> define um controle de entrada de texto de v&aacute;rias linhas.
+
+O &lt;textarea&gt;elemento &eacute; frequentemente usado em um formul&aacute;rio, para coletar entradas do usu&aacute;rio, como coment&aacute;rios ou an&aacute;lises.
+
+Uma &aacute;rea de texto pode conter um n&uacute;mero ilimitado de caracteres e o texto &eacute; renderizado em uma fonte de largura fixa (geralmente Courier).
+
+O tamanho de uma &aacute;rea de texto &eacute; especificado pelos atributos &lt;cols&gt;e &lt;rows&gt;(ou com CSS).
+
+O nameatributo &eacute; necess&aacute;rio para fazer refer&ecirc;ncia aos dados do formul&aacute;rio ap&oacute;s o formul&aacute;rio ser enviado (se voc&ecirc; omitir o nameatributo, nenhum dado da &aacute;rea de texto ser&aacute; enviado).
+
+O idatributo &eacute; necess&aacute;rio para associar a &aacute;rea de texto a um r&oacute;tulo.</p>
+        </section>
+
+        <!-- Atributos -->
+        <section id="atributos">
+            <h2>Atributos</h2>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th id="table-th-atributos">Atributo</th>
+                            <th id="table-th-valor">Valor</th>
+                            <th id="table-th-descricao">Descrição</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>autofocus</td>
+                            <td>autofocus</td>
+                            <td>Specifies that a text area should automatically get focus when the page loads</td>
+                        </tr>
+						<tr>
+                            <td>cols</td>
+                            <td>number</td>
+                            <td>Specifies the visible width of a text area</td>
+                        </tr>
+						<tr>
+                            <td>dirname</td>
+                            <td>textareaname.dir</td>
+                            <td>Specifies that the text direction of the textarea will be submitted</td>
+                        </tr>
+						<tr>
+                            <td>disabled</td>
+                            <td>disabled</td>
+                            <td>Specifies that a text area should be disabled</td>
+                        </tr>
+						<tr>
+                            <td>form</td>
+                            <td>form_id</td>
+                            <td>Specifies which form the text area belongs to</td>
+                        </tr>
+						<tr>
+                            <td>maxlength</td>
+                            <td>number</td>
+                            <td>Specifies the maximum number of characters allowed in the text area</td>
+                        </tr>
+						<tr>
+                            <td>name</td>
+                            <td>text</td>
+                            <td>Specifies a name for a text area</td>
+                        </tr>
+						<tr>
+                            <td>placeholder</td>
+                            <td>text</td>
+                            <td>Specifies a short hint that describes the expected value of a text area</td>
+                        </tr>
+						<tr>
+                            <td>readonly</td>
+                            <td>readonly</td>
+                            <td>Specifies that a text area should be read-only</td>
+                        </tr>
+						<tr>
+                            <td>required</td>
+                            <td>required</td>
+                            <td>Specifies that a text area is required/must be filled out</td>
+                        </tr>
+						<tr>
+                            <td>rows</td>
+                            <td>number</td>
+                            <td>Specifies the visible number of lines in a text area</td>
+                        </tr>
+						<tr>
+                            <td>wrap</td>
+                            <td>hard<br>
+								soft</td>
+                            <td>Specifies how the text in a text area is to be wrapped when submitted in a form</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Outro Exemplo -->
+        <section id="exemplo">
+            <h2>Exemplo</h2>
+            <p>Desative a opção de redimensionamento padrão:</p>
+            <div id="codigo-exemplo">
+                <code>
+                    <p>&lt;html&gt;<br>
+						&lt;head&gt;<br>
+						&lt;style&gt;<br>
+						textarea {<br>
+						resize: none;<br>
+						}<br>
+						&lt;/style&gt;<br>
+						&lt;/head&gt;<br>
+						&lt;body&gt;<br><br>
+
+						&lt;label for=&quot;w3review&quot;&gt;Review of W3Schools:&lt;/label&gt;<br><br>
+
+						&lt;textarea id=&quot;w3review&quot; name=&quot;w3review&quot; rows=&quot;4&quot; cols=&quot;50&quot;&gt;<br>
+						At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.<br>
+						&lt;/textarea&gt;<br><br>
+
+						&lt;/body&gt;<br>
+						&lt;/html&gt;</p>
+                </code>
+            </div>
+        </section>
+
+    </menu>
+    <!-- Menu Rodapé -->
+    <footer>
+        <hr>
+        <div class="rodape">
+            <ul>
+                <li><a>Home</a></li>
+                <li><a>Sobre</a></li>
+            </ul>
+        </div>
+        <span class="rodape-copyright">Copyright&copy;2021</span>
+    </footer>
+</body>
+
+</html>
