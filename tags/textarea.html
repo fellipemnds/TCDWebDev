@@ -4,182 +4,186 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tag &lt;teaxture&gt;</title>
-
+    <title>Tag &lt;teaxture&gt; - Referências HTML</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tag.css">
 </head>
 
 <body>
-   <!-- Menu Cabeçalho -->
-   <header>
-    <div class="container">
-        <div class="titulo-cabecalho">
-            <a>Referências <span>HTML</span></a>
-        </div>
-        <nav class="navegacao-cabecalho">
-            <ul>
-                <li><a>Home</a></li>
-                <li><a>Sobre</a></li>
-            </ul>
-        </nav>
+<!-- Menu Cabeçalho -->
+<header>
+    <div id="topo">
+        <img id="logo" src="../src/ifnmg-logo.png" alt="Logotipo do IFNMG">
+        <h4 id="nome">/ifnmg@desenvolvimentoweb</h4>
     </div>
-    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">home</a></li>
+            <li><a href="../lista-tags.html">referências</a></li>
+            <li><a href="../sobre.html">sobre nós</a></li>
+        </ul>
+        <a href="https://github.com/fellipemnds/TCDWebDev"><p class="github"><img src="../src/github-white.png" alt="Logo da GitHub branca em fundo preto">abrir no github</p></a>
+    </nav>
+</header>
 
-    <menu>
-        <!-- Nome Tag -->
-        <section id="tag">
-            <div class="container">
-                <h1>Tag HTML &lt;teaxture&gt;</h1>
-            </div>
-        </section>
+    <main>
+        <div id="content">
+            <!-- Nome Tag -->
+            <section id="tag">
+                <div class="container">
+                    <h1>a<span class="stroke">tag</span>&lt;textarea&gt;</h1>
+                </div>
+            </section>
 
-        <!-- Exemplo -->
-        <section id="exemplo">
-            <h2>Exemplo</h2>
-            <p>Um controle de entrada de texto de várias linhas (área de texto): </p>
-            <div id="codigo-exemplo">
-                <code>
-                    <p>&lt;label for=&quot;w3review&quot;&gt;Review of W3Schools:&lt;/label&gt;<br>
-					&lt;textarea id=&quot;w3review&quot; name=&quot;w3review&quot; rows=&quot;4&quot; cols=&quot;50&quot;&gt;<br>
-					At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.<br>
-					&lt;/textarea&gt;</p>
-                </code>
-            </div>
-        </section>
+            <!-- Exemplo -->
+            <section class="exemplo">
+                <h2>Exemplo</h2>
+                <p>Um controle de entrada de texto de várias linhas (área de texto): </p>
+                <div class="codigo-exemplo">
+                    <div><p>html</p> <p>textarea</p></div>
+                    <ol class="code">
+                        <li>&lt;label for=&quot;w3review&quot;&gt;Review of W3Schools:&lt;/label&gt;</li>
+                        <li>&lt;textarea id=&quot;w3review&quot; name=&quot;w3review&quot; rows=&quot;4&quot; cols=&quot;50&quot;&gt;</li>
+                        <li>At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.</li>
+                        <li>&lt;/textarea&gt;</li>
+                    </ol>
+                </div>
+            </section>
 
-        <!-- Definição e Uso -->
-        <section id="definicao">
-            <h2>Definição e Uso</h2>
-            <p>A tag <span>&lt;teaxture&gt;</span> define um controle de entrada de texto de v&aacute;rias linhas.
+            <!-- Definição e Uso -->
+            <section id="definicao">
+                <h2>Definição e Uso</h2>
+                <p>A tag <span>&lt;textarea&gt;</span> define um controle de entrada de texto de v&aacute;rias linhas.
 
-O &lt;textarea&gt;elemento &eacute; frequentemente usado em um formul&aacute;rio, para coletar entradas do usu&aacute;rio, como coment&aacute;rios ou an&aacute;lises.
+                    O &lt;textarea&gt;elemento &eacute; frequentemente usado em um formul&aacute;rio, para coletar entradas do usu&aacute;rio, como coment&aacute;rios ou an&aacute;lises.
 
-Uma &aacute;rea de texto pode conter um n&uacute;mero ilimitado de caracteres e o texto &eacute; renderizado em uma fonte de largura fixa (geralmente Courier).
+                    Uma &aacute;rea de texto pode conter um n&uacute;mero ilimitado de caracteres e o texto &eacute; renderizado em uma fonte de largura fixa (geralmente Courier).
 
-O tamanho de uma &aacute;rea de texto &eacute; especificado pelos atributos &lt;cols&gt;e &lt;rows&gt;(ou com CSS).
+                    O tamanho de uma &aacute;rea de texto &eacute; especificado pelos atributos &lt;cols&gt;e &lt;rows&gt;(ou com CSS).
 
-O nameatributo &eacute; necess&aacute;rio para fazer refer&ecirc;ncia aos dados do formul&aacute;rio ap&oacute;s o formul&aacute;rio ser enviado (se voc&ecirc; omitir o nameatributo, nenhum dado da &aacute;rea de texto ser&aacute; enviado).
+                    O nameatributo &eacute; necess&aacute;rio para fazer refer&ecirc;ncia aos dados do formul&aacute;rio ap&oacute;s o formul&aacute;rio ser enviado (se voc&ecirc; omitir o nameatributo, nenhum dado da &aacute;rea de texto ser&aacute; enviado).
 
-O idatributo &eacute; necess&aacute;rio para associar a &aacute;rea de texto a um r&oacute;tulo.</p>
-        </section>
+                    O idatributo &eacute; necess&aacute;rio para associar a &aacute;rea de texto a um r&oacute;tulo.</p>
+            </section>
 
-        <!-- Atributos -->
-        <section id="atributos">
-            <h2>Atributos</h2>
-            <div>
-                <table>
-                    <thead>
+            <!-- Atributos -->
+            <section id="atributos">
+                <h2>Atributos</h2>
+                <div>
+                    <table class="tabela">
+                        <thead>
                         <tr>
                             <th id="table-th-atributos">Atributo</th>
                             <th id="table-th-valor">Valor</th>
                             <th id="table-th-descricao">Descrição</th>
                         </tr>
-                    </thead>
-                    <tbody>
+                        </thead>
+                        <tbody>
                         <tr>
                             <td>autofocus</td>
                             <td>autofocus</td>
                             <td>Specifies that a text area should automatically get focus when the page loads</td>
                         </tr>
-						<tr>
+                        <tr>
                             <td>cols</td>
                             <td>number</td>
                             <td>Specifies the visible width of a text area</td>
                         </tr>
-						<tr>
+                        <tr>
                             <td>dirname</td>
                             <td>textareaname.dir</td>
                             <td>Specifies that the text direction of the textarea will be submitted</td>
                         </tr>
-						<tr>
+                        <tr>
                             <td>disabled</td>
                             <td>disabled</td>
                             <td>Specifies that a text area should be disabled</td>
                         </tr>
-						<tr>
+                        <tr>
                             <td>form</td>
                             <td>form_id</td>
                             <td>Specifies which form the text area belongs to</td>
                         </tr>
-						<tr>
+                        <tr>
                             <td>maxlength</td>
                             <td>number</td>
                             <td>Specifies the maximum number of characters allowed in the text area</td>
                         </tr>
-						<tr>
+                        <tr>
                             <td>name</td>
                             <td>text</td>
                             <td>Specifies a name for a text area</td>
                         </tr>
-						<tr>
+                        <tr>
                             <td>placeholder</td>
                             <td>text</td>
                             <td>Specifies a short hint that describes the expected value of a text area</td>
                         </tr>
-						<tr>
+                        <tr>
                             <td>readonly</td>
                             <td>readonly</td>
                             <td>Specifies that a text area should be read-only</td>
                         </tr>
-						<tr>
+                        <tr>
                             <td>required</td>
                             <td>required</td>
                             <td>Specifies that a text area is required/must be filled out</td>
                         </tr>
-						<tr>
+                        <tr>
                             <td>rows</td>
                             <td>number</td>
                             <td>Specifies the visible number of lines in a text area</td>
                         </tr>
-						<tr>
+                        <tr>
                             <td>wrap</td>
                             <td>hard<br>
-								soft</td>
+                                soft</td>
                             <td>Specifies how the text in a text area is to be wrapped when submitted in a form</td>
                         </tr>
-                    </tbody>
-                </table>
-            </div>
-        </section>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
 
-        <!-- Outro Exemplo -->
-        <section id="exemplo">
-            <h2>Exemplo</h2>
-            <p>Desative a opção de redimensionamento padrão:</p>
-            <div id="codigo-exemplo">
-                <code>
-                    <p>&lt;html&gt;<br>
-						&lt;head&gt;<br>
-						&lt;style&gt;<br>
-						textarea {<br>
-						resize: none;<br>
-						}<br>
-						&lt;/style&gt;<br>
-						&lt;/head&gt;<br>
-						&lt;body&gt;<br><br>
+            <!-- Outro Exemplo -->
+            <section class="exemplo">
+                <h2>Exemplo</h2>
+                <p>Desative a opção de redimensionamento padrão:</p>
+                <div class="codigo-exemplo">
+                    <div><p>html</p> <p>textarea</p></div>
+                    <ol class="code">
+                        <li>&lt;html&gt;</li>
+                        <li>&lt;head&gt;</li>
+                        <li>&lt;style&gt;</li>
+                        <li>textarea {</li>
+                        <li>resize: none;</li>
+                        <li>}</li>
+                        <li>&lt;/style&gt;</li>
+                        <li>&lt;/head&gt;</li>
+                        <li>&lt;body&gt;</li>
+                        <li></li>
+                        <li>&lt;label for=&quot;w3review&quot;&gt;Review of W3Schools:&lt;/label&gt;</li>
+                        <li></li>
+                        <li>&lt;textarea id=&quot;w3review&quot; name=&quot;w3review&quot; rows=&quot;4&quot; cols=&quot;50&quot;&gt;</li>
+                        <li>At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.</li>
+                        <li>&lt;/textarea&gt;</li>
 
-						&lt;label for=&quot;w3review&quot;&gt;Review of W3Schools:&lt;/label&gt;<br><br>
-
-						&lt;textarea id=&quot;w3review&quot; name=&quot;w3review&quot; rows=&quot;4&quot; cols=&quot;50&quot;&gt;<br>
-						At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.<br>
-						&lt;/textarea&gt;<br><br>
-
-						&lt;/body&gt;<br>
-						&lt;/html&gt;</p>
-                </code>
-            </div>
-        </section>
-
-    </menu>
-    <!-- Menu Rodapé -->
-    <footer>
-        <hr>
-        <div class="rodape">
-            <ul>
-                <li><a>Home</a></li>
-                <li><a>Sobre</a></li>
-            </ul>
+                        <li>&lt;/body&gt;</li>
+                        <li>&lt;/html&gt;</li>
+                    </ol>
+                </div>
+            </section>
         </div>
-        <span class="rodape-copyright">Copyright&copy;2021</span>
+        <div id="navigation">
+            <a class="link" href="#"><p class="tag-nav"><span id="arrow-left"><</span>anterior</p></a>
+            <a class="link" href="#"><p class="tag-nav">próximo<span id="arrow-right">></span></p></a>
+        </div>
+    </main>
+    <!-- Rodapé -->
+    <footer>
+        <h6>Mateus Felipe Mendes © Todos os direitos reservados.</h6>
     </footer>
 </body>
 

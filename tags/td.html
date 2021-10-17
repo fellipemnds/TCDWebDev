@@ -4,82 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tag &lt;td&gt;</title>
-
+    <title>Tag &lt;td&gt; - Referências HTML</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tag.css">
 </head>
 
 <body>
-   <!-- Menu Cabeçalho -->
-   <header>
-    <div class="container">
-        <div class="titulo-cabecalho">
-            <a>Referências <span>HTML</span></a>
+    <!-- Menu Cabeçalho -->
+    <header>
+        <div id="topo">
+            <img id="logo" src="../src/ifnmg-logo.png" alt="Logotipo do IFNMG">
+            <h4 id="nome">/ifnmg@desenvolvimentoweb</h4>
         </div>
-        <nav class="navegacao-cabecalho">
+        <nav>
             <ul>
-                <li><a>Home</a></li>
-                <li><a>Sobre</a></li>
+                <li><a href="../index.html">home</a></li>
+                <li><a href="../lista-tags.html">referências</a></li>
+                <li><a href="../sobre.html">sobre nós</a></li>
             </ul>
+            <a href="https://github.com/fellipemnds/TCDWebDev"><p class="github"><img src="../src/github-white.png" alt="Logo da GitHub branca em fundo preto">abrir no github</p></a>
         </nav>
-    </div>
     </header>
 
-    <menu>
-        <!-- Nome Tag -->
-        <section id="tag">
-            <div class="container">
-                <h1>Tag HTML &lt;td&gt;</h1>
-            </div>
-        </section>
+    <main>
+        <div id="content">
+            <!-- Nome Tag -->
+            <section id="tag">
+                <div class="container">
+                    <h1>a<span class="stroke">tag</span>&lt;td&gt;</h1>
+                </div>
+            </section>
 
-        <!-- Exemplo -->
-        <section id="exemplo">
-            <h2>Exemplo</h2>
-            <p>Uma tabela HTML simples, com duas linhas e quatro células de tabela: </p>
-            <div id="codigo-exemplo">
-                <code>
-                    <p>&lt;table&gt;<br>
-                        &lt;tr&gt;<br>
-                          &lt;td&gt;Cell A&lt;/td&gt;<br>
-                          &lt;td&gt;Cell B&lt;/td&gt;<br>
-                        &lt;/tr&gt;<br>
-                        &lt;tr&gt;<br>
-                          &lt;td&gt;Cell C&lt;/td&gt;<br>
-                          &lt;td&gt;Cell D&lt;/td&gt;<br>
-                        &lt;/tr&gt;<br>
-                      &lt;/table&gt;<br>
-                      </p>
-                </code>
-            </div>
-        </section>
+            <!-- Exemplo -->
+            <section class="exemplo">
+                <h2>Exemplo</h2>
+                <p>Uma tabela HTML simples, com duas linhas e quatro células de tabela: </p>
+                <div class="codigo-exemplo">
+                    <div><p>html</p> <p>td</p></div>
+                    <ol class="code">
+                        <li>&lt;table&gt;</li>
+                        <li>&lt;tr&gt;</li>
+                        <li>&lt;td&gt;Cell A&lt;/td&gt;</li>
+                        <li>&lt;td&gt;Cell B&lt;/td&gt;</li>
+                        <li>&lt;/tr&gt;</li>
+                        <li>&lt;tr&gt;</li>
+                        <li>&lt;td&gt;Cell C&lt;/td&gt;</li>
+                        <li>&lt;td&gt;Cell D&lt;/td&gt;</li>
+                        <li>&lt;/tr&gt;</li>
+                        <li>&lt;/table&gt;</li>
+                    </ol>
+                </div>
+            </section>
 
-        <!-- Definição e Uso -->
-        <section id="definicao">
-            <h2>Definição e Uso</h2>
-            <p>A tag <span>&lt;td&gt;</span> define uma célula de dados padrão em uma tabela HTML.<br>
-               Uma tabela HTML possui dois tipos de células:
+            <!-- Definição e Uso -->
+            <section id="definicao">
+                <h2>Definição e Uso</h2>
+                <p>A tag <span>&lt;td&gt;</span> define uma célula de dados padrão em uma tabela HTML.<br>
+                    Uma tabela HTML possui dois tipos de células:
                 <ul>
                     <li><a>Células de cabeçalho - contém informações de cabeçalho (criadas com o elemento &lt;th&gt; )</a></li>
                     <li><a>Células de dados - contém dados (criados com o &lt;td&gt; elemento)</a></li>
                 </ul>
                 O texto nos &lt;td&gt; elementos é regular e alinhado à esquerda por padrão.<br>
-                O texto nos elementos &lt;th&gt; está em negrito e centralizado por padrão. 
-            </p>
-        </section>
+                O texto nos elementos &lt;th&gt; está em negrito e centralizado por padrão.
+                </p>
+            </section>
 
-        <!-- Atributos -->
-        <section id="atributos">
-            <h2>Atributos</h2>
-            <div>
-                <table>
-                    <thead>
+            <!-- Atributos -->
+            <section id="atributos">
+                <h2>Atributos</h2>
+                <div>
+                    <table class="tabela">
+                        <thead>
                         <tr>
                             <th id="table-th-atributos">Atributo</th>
                             <th id="table-th-valor">Valor</th>
                             <th id="table-th-descricao">Descrição</th>
                         </tr>
-                    </thead>
-                    <tbody>
+                        </thead>
+                        <tbody>
                         <tr>
                             <td>colspan</td>
                             <td>number</td>
@@ -95,46 +100,45 @@
                             <td>number</td>
                             <td>Sets the number of rows a cell should span</td>
                         </tr>
-                    </tbody>
-                </table>
-            </div>
-        </section>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
 
-        <!-- Outro Exemplo -->
-        <section id="exemplo">
-            <h2>Exemplo</h2>
-            <p>Use CSS para alinhar o conteúdo dentro de &lt;td&gt;:</p>
-            <div id="codigo-exemplo">
-                <code>
-                    <p>&lt;table style="width:100%"&gt;<br>
-                        &lt;tr&gt;<br>
-                          &lt;th&gt;Month&lt;/th&gt;<br>
-                          &lt;th&gt;Savings&lt;/th&gt;<br>
-                        &lt;/tr&gt;<br>
-                        &lt;tr&gt;<br>
-                          &lt;td&gt;January&lt;/td&gt;<br>
-                          &lt;td style="text-align:right"&gt;$100&lt;/td&gt;<br>
-                        &lt;/tr&gt;<br>
-                        &lt;tr&gt;<br>
-                          &lt;td&gt;February&lt;/td&gt;<br>
-                          &lt;td style="text-align:right"&gt;$80&lt;/td&gt;<br>
-                        &lt;/tr&gt;<br>
-                      &lt;/table&gt;</p>
-                </code>
-            </div>
-        </section>
-
-    </menu>
-    <!-- Menu Rodapé -->
-    <footer>
-        <hr>
-        <div class="rodape">
-            <ul>
-                <li><a>Home</a></li>
-                <li><a>Sobre</a></li>
-            </ul>
+            <!-- Outro Exemplo -->
+            <section class="exemplo">
+                <h2>Exemplo</h2>
+                <p>Use CSS para alinhar o conteúdo dentro de &lt;td&gt;:</p>
+                <div class="codigo-exemplo">
+                    <div><p>html</p> <p>td</p></div>
+                    <ol class="code">
+                        <li>&lt;table style="width:100%"&gt;
+                        <li>&lt;tr&gt;</li>
+                        <li>&lt;th&gt;Month&lt;/th&gt;</li>
+                        <li>&lt;th&gt;Savings&lt;/th&gt;</li>
+                        <li>&lt;/tr&gt;</li>
+                        <li>&lt;tr&gt;</li>
+                        <li>&lt;td&gt;January&lt;/td&gt;</li>
+                        <li>&lt;td style="text-align:right"&gt;$100&lt;/td&gt;</li>
+                        <li>&lt;/tr&gt;</li>
+                        <li>&lt;tr&gt;</li>
+                        <li>&lt;td&gt;February&lt;/td&gt;</li>
+                        <li>&lt;td style="text-align:right"&gt;$80&lt;/td&gt;</li>
+                        <li>&lt;/tr&gt;</li>
+                        <li>&lt;/table&gt;</li>
+                    </ol>
+                </div>
+            </section>
         </div>
-        <span class="rodape-copyright">Copyright&copy;2021</span>
+        <div id="navigation">
+            <a class="link" href="#"><p class="tag-nav"><span id="arrow-left"><</span>anterior</p></a>
+            <a class="link" href="#"><p class="tag-nav">próximo<span id="arrow-right">></span></p></a>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <h6>Mateus Felipe Mendes © Todos os direitos reservados.</h6>
     </footer>
 </body>
 
