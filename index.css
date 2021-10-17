@@ -9,7 +9,7 @@ body {
     font-family: "Montserrat", sans-serif;
     width: 1300px;
     display: table;
-    margin: 35px auto;
+    margin: 35px auto 15px;
 }
 
 header {
@@ -78,9 +78,13 @@ nav a {
     margin-left:-40px;
 }
 
+main {
+    position: relative;
+}
+
 #pre-title {
     display: inline-flex;
-    margin-top: 130px;
+    margin-top: 100px;
 }
 
 #line {
@@ -97,13 +101,13 @@ h5 {
 }
 
 h1 {
-    font-size: 190px;
+    font-size: 150px;
 }
 
 .title {
-    line-height: 85px;
+    line-height: 70px;
     font-weight: 800;
-    margin-top: 25px;
+    margin-top: 50px;
 }
 
 #stroke {
