@@ -4,135 +4,140 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tag &lt;head&gt;</title>
-
+    <title>Tag &lt;head&gt; - Referências HTML</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tag.css">
 </head>
 
 <body>
-   <!-- Menu Cabeçalho -->
-   <header>
-    <div class="container">
-        <div class="titulo-cabecalho">
-            <a>Referências <span>HTML</span></a>
+<!-- Menu Cabeçalho -->
+    <header>
+        <div id="topo">
+            <img id="logo" src="../src/ifnmg-logo.png" alt="Logotipo do IFNMG">
+            <h4 id="nome">/ifnmg@desenvolvimentoweb</h4>
         </div>
-        <nav class="navegacao-cabecalho">
+        <nav>
             <ul>
-                <li><a>Home</a></li>
-                <li><a>Sobre</a></li>
+                <li><a href="../index.html">home</a></li>
+                <li><a href="../lista-tags.html">referências</a></li>
+                <li><a href="../sobre.html">sobre nós</a></li>
             </ul>
+            <a href="https://github.com/fellipemnds/TCDWebDev"><p class="github"><img src="../src/github-white.png" alt="Logo da GitHub branca em fundo preto">abrir no github</p></a>
         </nav>
-    </div>
     </header>
 
-    <menu>
-        <!-- Nome Tag -->
-        <section id="tag">
-            <div class="container">
-                <h1>Tag HTML &lt;head&gt;</h1>
-            </div>
-        </section>
+    <main>
+        <div id="content">
+            <!-- Nome Tag -->
+            <section id="tag">
+                <div class="container">
+                    <h1>a<span class="stroke">tag</span>&lt;head&gt;</h1>
+                </div>
+            </section>
 
-        <!-- Exemplo -->
-        <section id="exemplo">
-            <h2>Exemplo</h2>
-            <p>Um documento HTML simples, com uma tag &lt;title&gt; dentro da se&ccedil;&atilde;o head: </p>
-            <div id="codigo-exemplo">
-                <code>
-                    <p>&lt;!DOCTYPE html&gt;<br>
-					&lt;html lang=&quot;en&quot;&gt;<br>
-					&lt;head&gt;<br>
-					&lt;title&gt;Title of the document&lt;/title&gt;<br>
-					&lt;/head&gt;<br>
-					&lt;body&gt;<br><br>
+            <!-- Exemplo -->
+            <section class="exemplo">
+                <h2>Exemplo</h2>
+                <p>Um documento HTML simples, com uma tag &lt;title&gt; dentro da se&ccedil;&atilde;o head: </p>
+                <div class="codigo-exemplo">
+                    <div><p>html</p> <p>head</p></div>
+                    <ol class="code">
+                        <li>&lt;!DOCTYPE html&gt;</li>
+                        <li>&lt;html lang=&quot;en&quot;&gt;</li>
+                        <li>&lt;head&gt;</li>
+                        <li>&lt;title&gt;Title of the document&lt;/title&gt;</li>
+                        <li>&lt;/head&gt;</li>
+                        <li>&lt;body&gt;</li>
+                        <li></li>
+                        <li>&lt;h1&gt;This is a heading&lt;/h1&gt;</li>
+                        <li>&lt;p&gt;This is a paragraph.&lt;/p&gt;</li>
+                        <li></li>
+                        <li>&lt;/body&gt;</li>
+                        <li>&lt;/html&gt;</li>
+                    </ol>
+                </div>
+            </section>
 
-					&lt;h1&gt;This is a heading&lt;/h1&gt;<br>
-					&lt;p&gt;This is a paragraph.&lt;/p&gt;<br><br>
+            <!-- Definição e Uso -->
+            <section id="definicao">
+                <h2>Definição e Uso</h2>
+                <p>A tag <span>&lt;head&gt;</span> &eacute; um cont&ecirc;iner para metadados (dados sobre dados) e &eacute; colocado entre a tag &lt;html&gt; e a tag &lt;body&gt;.
 
-					&lt;/body&gt;<br>
-					&lt;/html&gt;</p>
-                </code>
-            </div>
-        </section>
+                    Metadados s&atilde;o dados sobre o documento HTML. Os metadados n&atilde;o s&atilde;o exibidos.
 
-        <!-- Definição e Uso -->
-        <section id="definicao">
-            <h2>Definição e Uso</h2>
-            <p>A tag <span>&lt;head&gt;</span> &eacute; um cont&ecirc;iner para metadados (dados sobre dados) e &eacute; colocado entre a tag &lt;html&gt; e a tag &lt;body&gt;.
+                    Os metadados normalmente definem o t&iacute;tulo do documento, conjunto de caracteres, estilos, scripts e outras metainforma&ccedil;&otilde;es.
 
-		Metadados s&atilde;o dados sobre o documento HTML. Os metadados n&atilde;o s&atilde;o exibidos.
+                    Os seguintes elementos podem ir dentro do &lt;head&gt;elemento:
 
-		Os metadados normalmente definem o t&iacute;tulo do documento, conjunto de caracteres, estilos, scripts e outras metainforma&ccedil;&otilde;es.
+                <ul>
+                    <li>&lt;title&gt; (obrigat&oacute;rio em todos os documentos HTML)</li>
+                    <li>&lt;style&gt;</li>
+                    <li>&lt;base&gt;</li>
+                    <li>&lt;link&gt;</li>
+                    <li>&lt;meta&gt;</li>
+                    <li>&lt;script&gt;</li>
+                    <li>&lt;noscript&gt;</li>
+                </ul>
 
-		Os seguintes elementos podem ir dentro do &lt;head&gt;elemento:
+                </p>
+            </section>
 
-			<ul>
-				<li>&lt;title&gt; (obrigat&oacute;rio em todos os documentos HTML)</li>
-                <li>&lt;style&gt;</li>
-                <li>&lt;base&gt;</li>
-                <li>&lt;link&gt;</li>
-                <li>&lt;meta&gt;</li>
-                <li>&lt;script&gt;</li>
-				<li>&lt;noscript&gt;</li>
-            </ul>
-
-			</p>
-        </section>
-
-        <!-- Atributos -->
-        <section id="atributos">
-            <h2>Atributos</h2>
-            <div>
-                <table>
-                    <thead>
+            <!-- Atributos -->
+            <section id="atributos">
+                <h2>Atributos</h2>
+                <div>
+                    <table class="tabela">
+                        <thead>
                         <tr>
                             <th id="table-th-atributos">Atributo</th>
                             <th id="table-th-valor">Valor</th>
                             <th id="table-th-descricao">Descrição</th>
                         </tr>
-                    </thead>
-                    <tbody>
+                        </thead>
+                        <tbody>
                         <tr>
                             <td>-</td>
                             <td>-</td>
                             <td>-</td>
                         </tr>
-                    </tbody>
-                </table>
-            </div>
-        </section>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
 
-        <!-- Outro Exemplo -->
-        <section id="exemplo">
-            <h2>Exemplo</h2>
-            <p>A tag &lt;base&gt; (especifica um URL padr&atilde;o e destino para todos os links em uma p&aacute;gina) vai dentro de &lt;head&gt;:</p>
-            <div id="codigo-exemplo">
-                <code>
-                    <p>&lt;html&gt;<br>
-					&lt;head&gt;<br>
-					&lt;base href=&quot;https://www.w3schools.com/&quot; target=&quot;_blank&quot;&gt;<br>
-					&lt;/head&gt;<br>
-					&lt;body&gt;<br><br>
-
-					&lt;img src=&quot;images/stickman.gif&quot; width=&quot;24&quot; height=&quot;39&quot; alt=&quot;Stickman&quot;&gt;<br>
-					&lt;a href=&quot;tags/tag_base.asp&quot;&gt;HTML base Tag&lt;/a&gt;<br><br>
-
-					&lt;/body&gt;<br>
-					&lt;/html&gt;</p>
-                </code>
-            </div>
-        </section>
-
-    </menu>
-    <!-- Menu Rodapé -->
-    <footer>
-        <hr>
-        <div class="rodape">
-            <ul>
-                <li><a>Home</a></li>
-                <li><a>Sobre</a></li>
-            </ul>
+            <!-- Outro Exemplo -->
+            <section class="exemplo">
+                <h2>Exemplo</h2>
+                <p>A tag &lt;base&gt; (especifica um URL padr&atilde;o e destino para todos os links em uma p&aacute;gina) vai dentro de &lt;head&gt;:</p>
+                <div class="codigo-exemplo">
+                    <div><p>html</p> <p>head</p></div>
+                    <ol class="code">
+                        <li>&lt;html&gt;</li>
+                        <li>&lt;head&gt;</li>
+                        <li>&lt;base href=&quot;https://www.w3schools.com/&quot; target=&quot;_blank&quot;&gt;</li>
+                        <li>&lt;/head&gt;</li>
+                        <li>&lt;body&gt;</li>
+                        <li></li>
+                        <li>&lt;img src=&quot;images/stickman.gif&quot; width=&quot;24&quot; height=&quot;39&quot; alt=&quot;Stickman&quot;&gt;</li>
+                        <li>&lt;a href=&quot;tags/tag_base.asp&quot;&gt;HTML base Tag&lt;/a&gt;</li>
+                        <li></li>
+                        <li>&lt;/body&gt;</li>
+                        <li>&lt;/html&gt;</li>
+                    </ol>
+                </div>
+            </section>
         </div>
-        <span class="rodape-copyright">Copyright&copy;2021</span>
+        <div id="navigation">
+            <a class="link" href="#"><p class="tag-nav"><span id="arrow-left"><</span>anterior</p></a>
+            <a class="link" href="#"><p class="tag-nav">próximo<span id="arrow-right">></span></p></a>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <h6>Mateus Felipe Mendes © Todos os direitos reservados.</h6>
     </footer>
 </body>
 

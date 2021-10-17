@@ -4,47 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tag &lt;track&gt;</title>
-
+    <title>Tag &lt;track&gt; - Referências HTML</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tag.css">
 </head>
 
 <body>
    <!-- Menu Cabeçalho -->
-   <header>
-    <div class="container">
-        <div class="titulo-cabecalho">
-            <a>Referências <span>HTML</span></a>
+    <header>
+        <div id="topo">
+            <img id="logo" src="../src/ifnmg-logo.png" alt="Logotipo do IFNMG">
+            <h4 id="nome">/ifnmg@desenvolvimentoweb</h4>
         </div>
-        <nav class="navegacao-cabecalho">
+        <nav>
             <ul>
-                <li><a>Home</a></li>
-                <li><a>Sobre</a></li>
+                <li><a href="../index.html">home</a></li>
+                <li><a href="../#">referências</a></li>
+                <li><a href="../sobre.html">sobre nós</a></li>
             </ul>
+            <a href="https://github.com/fellipemnds/TCDWebDev"><p class="github"><img src="../src/github-white.png" alt="Logo da GitHub branca em fundo preto">abrir no github</p></a>
         </nav>
-    </div>
     </header>
 
-    <menu>
+	<!-- Corpo da página -->
+    <main>
+		<div id="content">
         <!-- Nome Tag -->
         <section id="tag">
             <div class="container">
-                <h1>Tag HTML &lt;track&gt;</h1>
+                <h1>a<span class="stroke">tag</span>&lt;track&gt;</h1>
             </div>
         </section>
 
         <!-- Exemplo -->
-        <section id="exemplo">
+        <section class="exemplo">
             <h2>Exemplo</h2>
             <p>Um vídeo com legendas em dois idiomas: </p>
-            <div id="codigo-exemplo">
-                <code>
-                    <p>&lt;video width=&quot;320&quot; height=&quot;240&quot; controls&gt;<br>
-					&lt;source src=&quot;forrest_gump.mp4&quot; type=&quot;video/mp4&quot;&gt;<br>
-					&lt;source src=&quot;forrest_gump.ogg&quot; type=&quot;video/ogg&quot;&gt;<br>
-					&lt;track src=&quot;fgsubtitles_en.vtt&quot; kind=&quot;subtitles&quot; srclang=&quot;en&quot; label=&quot;English&quot;&gt;<br>
-					&lt;track src=&quot;fgsubtitles_no.vtt&quot; kind=&quot;subtitles&quot; srclang=&quot;no&quot; label=&quot;Norwegian&quot;&gt;<br>
-					&lt;/video&gt;</p>
-                </code>
+            <div class="codigo-exemplo">
+			<div><p>html</p> <p>track</p></div>
+                <ol class="code">
+                    <li>&lt;video width=&quot;320&quot; height=&quot;240&quot; controls&gt;</li>
+					<li>&lt;source src=&quot;forrest_gump.mp4&quot; type=&quot;video/mp4&quot;&gt;</li>
+					<li>&lt;source src=&quot;forrest_gump.ogg&quot; type=&quot;video/ogg&quot;&gt;</li>
+					<li>&lt;track src=&quot;fgsubtitles_en.vtt&quot; kind=&quot;subtitles&quot; srclang=&quot;en&quot; label=&quot;English&quot;&gt;</li>
+					<li>&lt;track src=&quot;fgsubtitles_no.vtt&quot; kind=&quot;subtitles&quot; srclang=&quot;no&quot; label=&quot;Norwegian&quot;&gt;</li>
+					<li>&lt;/video&gt;</li>
+                </ol>
             </div>
         </section>
 
@@ -103,19 +110,16 @@ As trilhas s&atilde;o formatadas no formato WebVTT (arquivos .vtt).</p>
             </div>
         </section>
 
-        
-
-    </menu>
-    <!-- Menu Rodapé -->
-    <footer>
-        <hr>
-        <div class="rodape">
-            <ul>
-                <li><a>Home</a></li>
-                <li><a>Sobre</a></li>
-            </ul>
+    </div> 
+	<div id="navigation">
+            <a class="link" href="#"><p class="tag-nav"><span id="arrow-left"><</span>anterior</p></a>
+            <a class="link" href="#"><p class="tag-nav">próximo<span id="arrow-right">></span></p></a>
         </div>
-        <span class="rodape-copyright">Copyright&copy;2021</span>
+
+    </main>
+    <!-- Rodapé -->
+    <footer>
+        <h6>Mateus Felipe Mendes © Todos os direitos reservados.</h6>
     </footer>
 </body>
 

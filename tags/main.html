@@ -4,161 +4,165 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tag &lt;main&gt;</title>
-
+    <title>Tag &lt;main&gt; - Referências HTML</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tag.css">
 </head>
 
 <body>
-   <!-- Menu Cabeçalho -->
-   <header>
-    <div class="container">
-        <div class="titulo-cabecalho">
-            <a>Referências <span>HTML</span></a>
-        </div>
-        <nav class="navegacao-cabecalho">
-            <ul>
-                <li><a>Home</a></li>
-                <li><a>Sobre</a></li>
-            </ul>
-        </nav>
+<!-- Menu Cabeçalho -->
+<header>
+    <div id="topo">
+        <img id="logo" src="../src/ifnmg-logo.png" alt="Logotipo do IFNMG">
+        <h4 id="nome">/ifnmg@desenvolvimentoweb</h4>
     </div>
-    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">home</a></li>
+            <li><a href="../lista-tags.html">referências</a></li>
+            <li><a href="../sobre.html">sobre nós</a></li>
+        </ul>
+        <a href="https://github.com/fellipemnds/TCDWebDev"><p class="github"><img src="../src/github-white.png" alt="Logo da GitHub branca em fundo preto">abrir no github</p></a>
+    </nav>
+</header>
 
-    <menu>
-        <!-- Nome Tag -->
-        <section id="tag">
-            <div class="container">
-                <h1>Tag HTML &lt;main&gt;</h1>
-            </div>
-        </section>
+    <main>
+        <div id="content">
+            <!-- Nome Tag -->
+            <section id="tag">
+                <div class="container">
+                    <h1>a<span class="stroke">tag</span>&lt;main&gt;</h1>
+                </div>
+            </section>
 
-        <!-- Exemplo -->
-        <section id="exemplo">
-            <h2>Exemplo</h2>
-            <p>Especifique o conteúdo principal do documento: </p>
-            <div id="codigo-exemplo">
-                <code>
-                    <p>&lt;main&gt;<br>
-                        &lt;h1&gt;Most Popular Browsers&lt;/h1&gt;<br>
-                        &lt;p&gt;Chrome, Firefox, and Edge are the most used browsers today.&lt;/p&gt;<br><br>
-                      
-                        &lt;article&gt;<br>
-                          &lt;h2&gt;Google Chrome&lt;/h2&gt;<br>
-                          &lt;p&gt;Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!&lt;/p&gt;<br>
-                        &lt;/article&gt;<br><br>
-                      
-                        &lt;article&gt;<br>
-                          &lt;h2&gt;Mozilla Firefox&lt;/h2&gt;<br>
-                          &lt;p&gt;Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.&lt;/p&gt;<br>
-                        &lt;/article&gt;<br><br>
-                      
-                        &lt;article&gt;<br>
-                          &lt;h2&gt;Microsoft Edge&lt;/h2&gt;<br>
-                          &lt;p&gt;Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.&lt;/p&gt;<br><br>
-                        &lt;/article&gt;<br>
-                      &lt;/main&gt;</p>
-                </code>
-            </div>
-        </section>
+            <!-- Exemplo -->
+            <section class="exemplo">
+                <h2>Exemplo</h2>
+                <p>Especifique o conteúdo principal do documento: </p>
+                <div class="codigo-exemplo">
+                    <div><p>html</p> <p>main</p></div>
+                    <ol class="code">
+                        <li>&lt;main&gt;</li>
+                        <li>&lt;h1&gt;Most Popular Browsers&lt;/h1&gt;</li>
+                        <li>&lt;p&gt;Chrome, Firefox, and Edge are the most used browsers today.&lt;/p&gt;</li>
+                        <li></li>
+                        <li>&lt;article&gt;</li>
+                        <li>&lt;h2&gt;Google Chrome&lt;/h2&gt;</li>
+                        <li>&lt;p&gt;Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!&lt;/p&gt;</li>
+                        <li>&lt;/article&gt;</li>
+                        <li></li>
+                        <li>&lt;article&gt;</li>
+                        <li>&lt;h2&gt;Mozilla Firefox&lt;/h2&gt;</li>
+                        <li>&lt;p&gt;Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.&lt;/p&gt;</li>
+                        <li>&lt;/article&gt;</li>
+                        <li></li>
+                        <li>&lt;article&gt;</li>
+                        <li>&lt;h2&gt;Microsoft Edge&lt;/h2&gt;</li>
+                        <li>&lt;p&gt;Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.&lt;/p&gt;</li>
+                        <li>&lt;/article&gt;</li>
+                        <li>&lt;/main&gt;</li>
+                    </ol>
+                </div>
+            </section>
 
-        <!-- Definição e Uso -->
-        <section id="definicao">
-            <h2>Definição e Uso</h2>
-            <p>A &lt;main&gt;tag especifica o conteúdo principal de um documento. O conteúdo dentro do &lt;main&gt; elemento deve ser exclusivo para o documento. 
-               Ele não deve conter nenhum conteúdo que se repita em documentos, como barras laterais, links de navegação, informações de direitos autorais, 
-               logotipos de sites e formulários de pesquisa.</p>
-        </section>
+            <!-- Definição e Uso -->
+            <section id="definicao">
+                <h2>Definição e Uso</h2>
+                <p>A tag &lt;main&gt; especifica o conteúdo principal de um documento. O conteúdo dentro do &lt;main&gt; elemento deve ser exclusivo para o documento.
+                    Ele não deve conter nenhum conteúdo que se repita em documentos, como barras laterais, links de navegação, informações de direitos autorais,
+                    logotipos de sites e formulários de pesquisa.</p>
+            </section>
 
-        <!-- Atributos -->
-        <section id="atributos">
-            <h2>Atributos</h2>
-            <div>
-                <table>
-                    <thead>
+            <!-- Atributos -->
+            <section id="atributos">
+                <h2>Atributos</h2>
+                <div>
+                    <table class="tabela">
+                        <thead>
                         <tr>
                             <th id="table-th-atributos">Atributo</th>
                             <th id="table-th-valor">Valor</th>
                             <th id="table-th-descricao">Descrição</th>
                         </tr>
-                    </thead>
-                    <tbody>
+                        </thead>
+                        <tbody>
                         <tr>
                             <td>-</td>
                             <td>-</td>
                             <td>-</td>
                         </tr>
-                    </tbody>
-                </table>
-            </div>
-        </section>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
 
-        <!-- Outro Exemplo -->
-        <section id="exemplo">
-            <h2>Exemplo</h2>
-            <p>Use CSS para alinhar o conteúdo dentro de &lt;td&gt;:</p>
-            <div id="codigo-exemplo">
-                <code>
-                    <p>&lt;html&gt;<br>
-                        &lt;head&gt;<br>
-                        &lt;style&gt;<br>
-                        main {<br>
-                          margin: 0;<br>
-                          padding: 5px;<br>
-                          background-color: lightgray;<br>
-                        }<br><br>
-                        
-                        main &gt; h1, p, .browser {<br>
-                          margin: 10px;<br>
-                          padding: 5px;<br>
-                        }<br><br>
-                        
-                        .browser {<br>
-                          background: white;<br>
-                        }<br><br>
-                        
-                        .browser &gt; h2, p {<br>
-                          margin: 4px;<br>
-                          font-size: 90%;<br>
-                        }<br>
-                        &lt;/style&gt;<br>
-                        &lt;/head&gt;<br>
-                        &lt;body&gt;<br><br>
-                        
-                        &lt;main&gt;<br>
-                          &lt;h1&gt;Most Popular Browsers&lt;/h1&gt;<br>
-                          &lt;p&gt;Chrome, Firefox, and Edge are the most used browsers today.&lt;/p&gt;<br>
-                          &lt;article class="browser"&gt;<br>
-                            &lt;h2&gt;Google Chrome&lt;/h2&gt;<br>
-                            &lt;p&gt;Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!&lt;/p&gt;<br>
-                          &lt;/article&gt;<br>
-                          &lt;article class="browser"&gt;<br>
-                            &lt;h2&gt;Mozilla Firefox&lt;/h2&gt;<br>
-                            &lt;p&gt;Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.&lt;/p&gt;<br>
-                          &lt;/article&gt;<br>
-                          &lt;article class="browser"&gt;<br>
-                            &lt;h2&gt;Microsoft Edge&lt;/h2&gt;<br>
-                            &lt;p&gt;Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.&lt;/p&gt;<br>
-                          &lt;/article&gt;<br>
-                        &lt;/main&gt;<br><br>
-                        
-                        &lt;/body&gt;<br>
-                        &lt;/html&gt;<br>
-                </code>
-            </div>
-        </section>
-
-    </menu>
-    <!-- Menu Rodapé -->
-    <footer>
-        <hr>
-        <div class="rodape">
-            <ul>
-                <li><a>Home</a></li>
-                <li><a>Sobre</a></li>
-            </ul>
+            <!-- Outro Exemplo -->
+            <section class="exemplo">
+                <h2>Exemplo</h2>
+                <p>Use CSS para alinhar o conteúdo dentro de &lt;td&gt;:</p>
+                <div class="codigo-exemplo">
+                    <div><p>html</p> <p>main</p></div>
+                    <ol class="code">
+                        <li>&lt;html&gt;</li>
+                        <li>&lt;head&gt;</li>
+                        <li>&lt;style&gt;</li>
+                        <li>main {</li>
+                        <li>margin: 0;</li>
+                        <li>padding: 5px;</li>
+                        <li>background-color: lightgray;</li>
+                        <li>}</li>
+                        <li></li>
+                        <li>main &gt; h1, p, .browser {</li>
+                        <li>margin: 10px;</li>
+                        <li>padding: 5px;</li>
+                        <li>}</li>
+                        <li></li>
+                        <li>.browser {</li>
+                        <li>background: white;</li>
+                        <li>}</li>
+                        <li></li>
+                        <li>.browser &gt; h2, p {</li>
+                        <li>margin: 4px;</li>
+                        <li>font-size: 90%;</li>
+                        <li>}</li>
+                        <li>&lt;/style&gt;</li>
+                        <li>&lt;/head&gt;</li>
+                        <li>&lt;body&gt;
+                        <li></li>
+                        <li>&lt;main&gt;</li>
+                        <li>&lt;h1&gt;Most Popular Browsers&lt;/h1&gt;</li>
+                        <li>&lt;p&gt;Chrome, Firefox, and Edge are the most used browsers today.&lt;/p&gt;</li>
+                        <li>&lt;article class="browser"&gt;</li>
+                        <li>&lt;h2&gt;Google Chrome&lt;/h2&gt;</li>
+                        <li>&lt;p&gt;Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!&lt;/p&gt;</li>
+                        <li>&lt;/article&gt;</li>
+                        <li>&lt;article class="browser"&gt;</li>
+                        <li>&lt;h2&gt;Mozilla Firefox&lt;/h2&gt;</li>
+                        <li>&lt;p&gt;Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.&lt;/p&gt;</li>
+                        <li>&lt;/article&gt;</li>
+                        <li>&lt;article class="browser"&gt;</li>
+                        <li>&lt;h2&gt;Microsoft Edge&lt;/h2&gt;</li>
+                        <li>&lt;p&gt;Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.&lt;/p&gt;</li>
+                        <li>&lt;/article&gt;</li>
+                        <li>&lt;/main&gt;</li>
+                        <li></li>
+                        <li>&lt;/body&gt;</li>
+                        <li>&lt;/html&gt;</li>
+                    </ol>
+                </div>
+            </section>
         </div>
-        <span class="rodape-copyright">Copyright&copy;2021</span>
-    </footer>
+        <div id="navigation">
+            <a class="link" href="#"><p class="tag-nav"><span id="arrow-left"><</span>anterior</p></a>
+            <a class="link" href="#"><p class="tag-nav">próximo<span id="arrow-right">></span></p></a>
+    </main>
+
+<!-- Rodapé -->
+<footer>
+    <h6>Mateus Felipe Mendes © Todos os direitos reservados.</h6>
+</footer>
 </body>
 
 </html>
