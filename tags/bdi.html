@@ -4,44 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tag &lt;bdi&gt;</title>
+    <title>Tag &lt;bdi&gt; - Referências HTML</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tag.css">
 </head>
 
 <body>
    <!-- Menu Cabeçalho -->
-   <header>
-    <div class="container">
-        <div class="titulo-cabecalho">
-            <a>Referências <span>HTML</span></a>
+    <header>
+        <div id="topo">
+            <img id="logo" src="../src/ifnmg-logo.png" alt="Logotipo do IFNMG">
+            <h4 id="nome">/ifnmg@desenvolvimentoweb</h4>
         </div>
-        <nav class="navegacao-cabecalho">
+        <nav>
             <ul>
-                <li><a>Home</a></li>
-                <li><a>Sobre</a></li>
+                <li><a href="../index.html">home</a></li>
+                <li><a href="../#">referências</a></li>
+                <li><a href="../sobre.html">sobre nós</a></li>
             </ul>
+            <a href="https://github.com/fellipemnds/TCDWebDev"><p class="github"><img src="../src/github-white.png" alt="Logo da GitHub branca em fundo preto">abrir no github</p></a>
         </nav>
-    </div>
     </header>
 
-    <menu>
-        <!-- Nome Tag -->
-        <section id="tag">
-            <div class="container">
-                <h1>Tag HTML &lt;bdi&gt;</h1>
-            </div>
-        </section>
+    <main>
+        <div id="content">
+		<!-- Nome Tag -->
+            <section id="tag">
+                <div class="container">
+                    <h1>a<span class="stroke">tag</span>&lt;bdi&gt;</h1>
+                </div>
+            </section>
 
         <!-- Exemplo -->
-        <section id="exemplo">
+        <section class="exemplo">
             <h2>Exemplo</h2>
             <p>Isole os nomes de usuário das configurações de direção do texto ao redor:</p>
-            <div id="codigo-exemplo">
-                <code>
-                    <p>&lt;ul&gt;<br>
-                        &lt;li&gt;User &lt;bdi&gt;hrefs&lt;/bdi&gt;: 60 points&lt;/li&gt;<br>
-                        &lt;li&gt;User &lt;bdi&gt;jdoe&lt;/bdi&gt;: 80 points&lt;/li&gt;<br>
-                        &lt;li&gt;User &lt;bdi&gt;إيان&lt;/bdi&gt;: 90 points&lt;/li&gt;<br>
-                      &lt;/ul&gt;</p>
+            <div class="codigo-exemplo">
+            <div><p>html</p> <p>bdi</p></div>  
+				<ol class="code">
+                    <li>&lt;ul&gt;</li>
+                    <li>&lt;li&gt;User &lt;bdi&gt;hrefs&lt;/bdi&gt;: 60 points&lt;/li&gt;</li>
+                    <li>&lt;li&gt;User &lt;bdi&gt;jdoe&lt;/bdi&gt;: 80 points&lt;/li&gt;</li>
+                    <li>&lt;li&gt;User &lt;bdi&gt;إيان&lt;/bdi&gt;: 90 points&lt;/li&gt;</li>
+                    <li>&lt;/ul&gt;</li>
                 </code>
             </div>
         </section>
@@ -68,18 +75,20 @@
                 </table>
             </div>
         </section>
-        
-    </menu>
-    <!-- Menu Rodapé -->
-    <footer>
-        <hr>
-        <div class="rodape">
-            <ul>
-                <li><a>Home</a></li>
-                <li><a>Sobre</a></li>
-            </ul>
+		
+		</div>
+	
+	<div id="navigation">
+            <a class="link" href="#"><p class="tag-nav"><span id="arrow-left"><</span>anterior</p></a>
+            <a class="link" href="#"><p class="tag-nav">próximo<span id="arrow-right">></span></p></a>
         </div>
-        <span class="rodape-copyright">Copyright&copy;2021</span>
+    
+    </main>
+    
+	
+	<!-- Rodapé -->
+    <footer>
+        <h6>Mateus Felipe Mendes © Todos os direitos reservados.</h6>
     </footer>
 </body>
 

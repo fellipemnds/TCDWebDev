@@ -4,65 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tag &lt;tfoot&gt;</title>
-
+    <title>Tag &lt;tfoot&gt; - Referências HTML</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tag.css">
 </head>
 
 <body>
    <!-- Menu Cabeçalho -->
    <header>
-    <div class="container">
-        <div class="titulo-cabecalho">
-            <a>Referências <span>HTML</span></a>
-        </div>
-        <nav class="navegacao-cabecalho">
-            <ul>
-                <li><a>Home</a></li>
-                <li><a>Sobre</a></li>
-            </ul>
-        </nav>
-    </div>
-    </header>
+       <div id="topo">
+           <img id="logo" src="../src/ifnmg-logo.png" alt="Logotipo do IFNMG">
+           <h4 id="nome">/ifnmg@desenvolvimentoweb</h4>
+       </div>
+       <nav>
+           <ul>
+               <li><a href="../index.html">home</a></li>
+               <li><a href="../lista-tags.html">referências</a></li>
+               <li><a href="../sobre.html">sobre nós</a></li>
+           </ul>
+           <a href="https://github.com/fellipemnds/TCDWebDev"><p class="github"><img src="../src/github-white.png" alt="Logo da GitHub branca em fundo preto">abrir no github</p></a>
+       </nav>
+   </header>
 
-    <menu>
+	<!-- Corpo da página -->
+    <main>
+		<div id="content">
         <!-- Nome Tag -->
         <section id="tag">
             <div class="container">
-                <h1>Tag HTML &lt;tfoot&gt;</h1>
+                <h1>a<span class="stroke">tag</span>&lt;tfoot&gt;</h1>
             </div>
         </section>
 
         <!-- Exemplo -->
-        <section id="exemplo">
+        <section class="exemplo">
             <h2>Exemplo</h2>
             <p>Uma seção de rodapé em um documento: </p>
-            <div id="codigo-exemplo">
-                <code>
-                    <p>&lt;table&gt;<br>
-                        &lt;thead&gt;<br>
-                          &lt;tr&gt;<br>
-                            &lt;th&gt;Month&lt;/th&gt;<br>
-                            &lt;th&gt;Savings&lt;/th&gt;<br>
-                          &lt;/tr&gt;<br>
-                        &lt;/thead&gt;<br>
-                        &lt;tbody&gt;<br>
-                          &lt;tr&gt;<br>
-                            &lt;td&gt;January&lt;/td&gt;<br>
-                            &lt;td&gt;$100&lt;/td&gt;<br>
-                          &lt;/tr&gt;<br>
-                          &lt;tr&gt;<br>
-                            &lt;td&gt;February&lt;/td&gt;<br>
-                            &lt;td&gt;$80&lt;/td&gt;<br>
-                          &lt;/tr&gt;<br>
-                        &lt;/tbody&gt;<br>
-                        &lt;tfoot&gt;<br>
-                          &lt;tr&gt;<br>
-                            &lt;td&gt;Sum&lt;/td&gt;<br>
-                            &lt;td&gt;$180&lt;/td&gt;<br>
-                          &lt;/tr&gt;<br>
-                        &lt;/tfoot&gt;<br>
-                      &lt;/table&gt;</p>
-                </code>
+            <div class="codigo-exemplo">
+				<div><p>html</p> <p>tfoot</p></div>
+                <ol class="code">
+                    <li>&lt;table&gt;</li>
+                    <li>&lt;thead&gt;</li>
+                    <li>&lt;tr&gt;</li>
+                    <li>&lt;th&gt;Month&lt;/th&gt;</li>
+                    <li>&lt;th&gt;Savings&lt;/th&gt;</li>
+                    <li>&lt;/tr&gt;</li>
+                    <li>&lt;/thead&gt;</li>
+                    <li>&lt;tbody&gt;</li>
+                    <li>&lt;tr&gt;</li>
+                    <li>&lt;td&gt;January&lt;/td&gt;</li>
+                    <li>&lt;td&gt;$100&lt;/td&gt;</li>
+                    <li>&lt;/tr&gt;</li>
+                    <li>&lt;tr&gt;</li>
+                    <li>&lt;td&gt;February&lt;/td&gt;</li>
+                    <li>&lt;td&gt;$80&lt;/td&gt;</li>
+                    <li>&lt;/tr&gt;</li>
+                    <li>&lt;/tbody&gt;</li>
+                    <li>&lt;tfoot&gt;</li>
+                    <li>&lt;tr&gt;</li>
+                    <li>&lt;td&gt;Sum&lt;/td&gt;</li>
+                    <li>&lt;td&gt;$180&lt;/td&gt;</li>
+                    <li>&lt;/tr&gt;</li>
+                    <li>&lt;/tfoot&gt;</li>
+                    <li>&lt;/table&gt;</li>
+                </ol>
             </div>
         </section>
 
@@ -99,65 +106,67 @@
         </section>
 
         <!-- Outro Exemplo -->
-        <section id="exemplo">
+        <section class="exemplo">
             <h2>Exemplo</h2>
             <p>Estilize &lt;thead&gt;, &lt;tbody&gt; e &lt;tfoot&gt; com CSS::</p>
-            <div id="codigo-exemplo">
-                <code>
-                    <p>&lt;html&gt;<br>
-                        &lt;head&gt;<br>
-                        &lt;style&gt;<br>
-                        thead {color: green;}<br>
-                        tbody {color: blue;}<br>
-                        tfoot {color: red;}<br><br>
+            <div class="codigo-exemplo">
+                <div><p>html</p> <p>tfoot</p></div>
+				<ol class="code">
+                    <li>&lt;html&gt;</li>
+                    <li>&lt;head&gt;</li>
+                    <li>&lt;style&gt;</li>
+                    <li>thead {color: green;}</li>
+                    <li>tbody {color: blue;}</li>
+                    <li>tfoot {color: red;}</li>
                         
-                        table, th, td {<br>
-                          border: 1px solid black;<br>
-                        }<br>
-                        &lt;/style&gt;<br>
-                        &lt;/head&gt;<br>
-                        &lt;body&gt;<br><br>
+                    <li>table, th, td {</li>
+                    <li>border: 1px solid black;</li>
+                    <li>}</li>
+                    <li>&lt;/style&gt;</li>
+                    <li>&lt;/head&gt;</li>
+                    <li>&lt;body&gt;</li>
                         
-                        &lt;table&gt;<br>
-                          &lt;thead&gt;<br>
-                            &lt;tr&gt;<br>
-                              &lt;th&gt;Month&lt;/th&gt;<br>
-                              &lt;th&gt;Savings&lt;/th&gt;<br>
-                            &lt;/tr&gt;<br>
-                          &lt;/thead&gt;<br>
-                          &lt;tbody&gt;<br>
-                            &lt;tr&gt;<br>
-                              &lt;td&gt;January&lt;/td&gt;<br>
-                              &lt;td&gt;$100&lt;/td&gt;<br>
-                            &lt;/tr&gt;<br>
-                            &lt;tr&gt;<br>
-                              &lt;td&gt;February&lt;/td&gt;<br>
-                              &lt;td&gt;$80&lt;/td&gt;<br>
-                            &lt;/tr&gt;<br>
-                          &lt;/tbody&gt;<br>
-                          &lt;tfoot&gt;<br>
-                            &lt;tr&gt;<br>
-                              &lt;td&gt;Sum&lt;/td&gt;<br>
-                              &lt;td&gt;$180&lt;/td&gt;<br>
-                            &lt;/tr&gt;<br>
-                          &lt;/tfoot&gt;<br>
-                        &lt;/table&gt;</p>
-                </code>
+                    <li>&lt;table&gt;</li>
+                    <li>&lt;thead&gt;</li>
+                    <li>&lt;tr&gt;</li>
+                    <li>&lt;th&gt;Month&lt;/th&gt;</li>
+                    <li>&lt;th&gt;Savings&lt;/th&gt;</li>
+                    <li>&lt;/tr&gt;</li>
+                    <li>&lt;/thead&gt;</li>
+                    <li>&lt;tbody&gt;</li>
+                    <li>&lt;tr&gt;</li>
+                    <li>&lt;td&gt;January&lt;/td&gt;</li>
+                    <li>&lt;td&gt;$100&lt;/td&gt;</li>
+                    <li>&lt;/tr&gt;</li>
+                    <li>&lt;tr&gt;</li>
+                    <li>&lt;td&gt;February&lt;/td&gt;</li>
+                    <li>&lt;td&gt;$80&lt;/td&gt;</li>
+                    <li>&lt;/tr&gt;</li>
+                    <li>&lt;/tbody&gt;</li>
+                    <li>&lt;tfoot&gt;</li>
+                    <li>&lt;tr&gt;</li>
+                    <li>&lt;td&gt;Sum&lt;/td&gt;</li>
+                    <li>&lt;td&gt;$180&lt;/td&gt;</li>
+                    <li>&lt;/tr&gt;</li>
+                    <li>&lt;/tfoot&gt;</li>
+                    <li>&lt;/table&gt;</li>
+                </ol>
             </div>
         </section>
 
-    </menu>
-    <!-- Menu Rodapé -->
-    <footer>
-        <hr>
-        <div class="rodape">
-            <ul>
-                <li><a>Home</a></li>
-                <li><a>Sobre</a></li>
-            </ul>
+	</div>
+    <div id="navigation">
+            <a class="link" href="#"><p class="tag-nav"><span id="arrow-left"><</span>anterior</p></a>
+            <a class="link" href="#"><p class="tag-nav">próximo<span id="arrow-right">></span></p></a>
         </div>
-        <span class="rodape-copyright">Copyright&copy;2021</span>
-    </footer>
+	
+	</main>
+    
+	<!-- Rodapé -->
+   <footer>
+       <h6>Mateus Felipe Mendes © Todos os direitos reservados.</h6>
+   </footer>
+
 </body>
 
 </html>
