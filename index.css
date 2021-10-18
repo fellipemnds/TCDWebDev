@@ -4,8 +4,10 @@ html {
     background-color: #FFFFFF;
     display: table;
     margin: auto;
-    background-image: url("src/bg.png");
+    background-image: url("src/bg5.png");
     background-position: center top;
+    background-repeat: repeat;
+    background-position-y: 25%;
 }
 body {
     font-family: "Montserrat", sans-serif;
