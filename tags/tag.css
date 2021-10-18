@@ -169,6 +169,7 @@ h2 {
 #atributos {
     border-top: 1px solid #eeeeee;
     padding: 30px 0 40px;
+    border-bottom: 1px solid #eeeeee;
 }
 
 .tabela {
@@ -209,6 +210,50 @@ tr:nth-child(even) {
 
 #table-th-descricao {
     width: 50%;
+}
+
+#suporte-navegador {
+    padding: 30px 0 40px;
+}
+
+.support {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.support img {
+    width: 60px;
+    height: 60px;
+}
+
+.value {
+    margin-top: 8px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+#ref {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+#browsers {
+    display: inherit;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.version {
+    margin: auto 30px auto 5px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 700;
 }
 
 #navigation {
